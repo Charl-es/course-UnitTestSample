@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "A9EE5BD9-7E85-4437-8C34-11909AD481C9",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:UnitTestSample.xcodeproj",
+      "identifier" : "3417716626DB149100108680",
+      "name" : "UnitTestSample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:UnitTestSample.xcodeproj",
+        "identifier" : "DC9E21662ACAF83500F3DC63",
+        "name" : "StrangeCalculatorTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:UnitTestSample.xcodeproj",
+        "identifier" : "DC9E21732ACAFC4500F3DC63",
+        "name" : "ValidateNumbersTests"
+      }
+    }
+  ],
+  "version" : 1
+}
